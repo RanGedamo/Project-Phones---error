@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-image: url(../../images/image-services/photo-1553095066-5014bc7b7f2d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(197, 187, 192);
+  white-space: nowrap;
+  transition: 0.3s;
+  /* font-family: 'Bebas Neue', cursive; */
+  
+  
+}
+
+.navbar a:hover{
+  font-size: 23px;
+  color: yellow;
+}
+
+
+h1{
+  font-family: 'Mochiy Pop One', sans-serif;
+  animation: h1-anim 3s alternate;
+}
+@keyframes h1-anim {
+  0% {
+      /* transform: rotate(-15deg); */
+      filter: blur(15px);
+  }
+}
+#video1{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+#box1 {
+  /* align-self: flex-end; */
+  position: relative;
+  right: 5vw;
+  /* width: 45vw;
+  height: 80vh; */
+  transform: rotate(-5deg);
+  animation: animation 3s alternate;
+}
+@keyframes animation {
+  0% {
+      /* transform: rotate(-15deg); */
+      filter: blur(15px);
+  }
+}
+
+@media screen and (max-width:767px) {
+  #p1{
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width:992px) {
+  #weather2{
+    display:flex;
+    filter: drop-shadow(0 0 0.9rem yellow)
+    }
+  
+}
+@media screen and (max-width:992px) {
+  .navbar-toggler{
+    display: flex;
+    filter: drop-shadow(0 0 0.9rem yellow)
+  }
+  #weather2{
+    display:none
+  }
+}

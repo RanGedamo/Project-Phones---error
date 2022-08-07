@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/home/home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="header" class="pt-2">
+    <div class="container-fluid align-items-center justify-content-lg-between ">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand col-2 " href="#"><img src="./images/image-home/logo2-removebg-preview.png" width="80px"></a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <div id="weather" class="text-warning"></div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item active col-3 ">
+              <a class="nav-link  fw-bold" href="./index.html">Home</a>
+            </li>
+            <ul class="navbar-nav ">
+              <li class="nav-item active col-4 ">
+                <a class="nav-link  fw-bold" href="./pages/about/about.html">About</a>
+              </li>
+              <li class="nav-item col-4">
+                <a class="nav-link  fw-bold" href="./pages/services/services.html">Services</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link  fw-bold" href="./pages/team/team.html">Team</a>
+              </li>
+              <li class="nav-item col-4">
+                <a class="nav-link  fw-bold" href="./pages/contact/contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle  fw-bold " href="#" id="navbarDropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Phones
+                </a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                  <a href="./pages/apple-phone/apple.html">Apple</a>
+                  <a href="./pages/galaxy-phone/galaxy.html">Galaxy</a>
+                  <a href="./pages/blackbery-phone/blackberry.html">BlackBerry</a>
+                  <a href="./pages/google-phone/google.html">Google</a>
+                  <a href="./pages/sony-phone/sony.html">Sony</a>
+                  <a href="./pages/xiaomi-phone/Xiaomi.html">Xiaomi</a>
+
+                </div>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container mt-2 bg-black bg-opacity-25 ">
+    <br>
+    <div id="weather2" class=" justify-content-end text-warning"></div>
+
+    <div id="title1" class="d-lg-flex d-md-flex   ">
+      <div id="img1" class="col-sm-12 col-md-8  d-flex "><img id="box1" class="w-100 pl-md-5"
+          src="./images/image-home/z_iphone12pro_hero.webp" alt=""></div>
+
+
+      <div id="p1" class=" text-white col-sm-12 col-md-4 d-flex flex-column pt-5 text-sm-center d-flex ">
+        <h1 class="opacity-75">MyPhone</h1>
+        <h5 class="text-warning">גם לך מגיע אייפון</h5>
+        <br>
+        <p dir="rtl"><b>כ-50% מהילדים מקבלים מההורים סמארטפון לראשונה בגילאי 10-12. כיום אחוז העוני רק עולה ולהורים קשה
+            יותר לסגור את החודש , המטרה שלנו היא להיות עזר לאותם הורים /מבוגרים/נוער בסיכון שנמצא במצבים אלו
+          </b></p>
+        <div id="btn"><button class="bg-danger border-danger fw-bold text-white col-4">למידע נוסף</button></div>
+      </div>
+      <br><br>
+    </div>
+    <br><br><br>
+    <div class="video-wrap   d-flex justify-content-center ">
+      <div class=" opacity-75 ">
+        <video autoplay loop muted class="col-12" id="video1 ">
+          <source src="./images/videos/Introducing iPhone 13 Pro _ Apple.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <br>
+    <a href="#" class="back-to-top d-flex  justify-content-center"><img src="./images/image-home/logo2-removebg-preview.png"
+        alt=""></a>
+    <script src="./pages/home/weather.js"></script>
+    <br>
+  </div>
+  <footer class="text-center  d-flex justify-content-around" >
+    <div class="container pt-4 d-flex justify-content-around">
+        <a
+          class="btn btn-link btn-floating btn-lg text-white m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="black"
+          ><i class="bi bi-facebook"></i
+        ></a>
+            <a
+          class="btn btn-link btn-floating btn-lg text-white m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="bi bi-instagram"></i
+        ></a>
+            <a
+          class="btn btn-link btn-floating btn-lg text-white m-1"
+          href="https://github.com/RanGedamo"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="bi bi-github"></i
+        ></a>
+            <a
+          class="btn btn-link btn-floating btn-lg text-white m-1"
+          href="https://www.linkedin.com/in/ran-gedamo-288828236/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+</html>
