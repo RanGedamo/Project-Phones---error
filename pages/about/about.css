@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
   background-image: url(../../images/image-services/photo-1553095066-5014bc7b7f2d.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +28,28 @@ body {
   font-size: 23px;
   color: yellow;
 }
+/* #img-1{
+  margin-top: ;
+} */
+/* .title-1{
+  position: relative;
+  transform: rotate(-40deg);
+  font-size: 70px;
+  top:-85vh;
+  right: 7vw;
+  filter: drop-shadow(0 0 0.1rem rgb(255, 16, 16));
+}
+.title-2{
+  position: relative;
+  transform: rotate(-40deg);
+  font-size: 30px;
+  top:-99vh;
+  right: -1vw;
+  color: rgb(233, 6, 6);
+  filter: drop-shadow(0 0 0.1rem black);
+} */
+
+.title-card{}
 
 @media screen and (min-width:992px) {
   #weather2{
@@ -47,3 +67,25 @@ body {
     display:none
   }
 }
+
+
+
+
+/* 
+.title-1{
+  position: relative;
+  transform: rotate(-40deg);
+  font-size: 70px;
+  top:-85vh;
+  right: 7vw;
+  filter: drop-shadow(0 0 0.1rem rgb(255, 16, 16));
+}
+.title-2{
+  position: relative;
+  transform: rotate(-40deg);
+  font-size: 30px;
+  top:-99vh;
+  right: -1vw;
+  color: rgb(233, 6, 6);
+  filter: drop-shadow(0 0 0.1rem black);
+} */ */

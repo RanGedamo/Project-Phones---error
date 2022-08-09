@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./about.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./about.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
@@ -15,97 +15,136 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
-    <title>Document</title>
+  <title>Document</title>
 </head>
 
 <body>
-    <header id="header" class="pt-2">
-        <div class="container-fluid align-items-center justify-content-lg-between ">
-    
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand col-2 " href="#"><img src="../../images/image-home/logo2-removebg-preview.png" width="80px"></a>
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><div id="weather"></div>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
-              <ul class="navbar-nav ">
-                <li class="nav-item active col-3 ">
-                  <a class="nav-link  fw-bold" href="../../index.html">Home</a>
-                </li>
-              <ul class="navbar-nav ">
-                <li class="nav-item active col-4 ">
-                  <a class="nav-link  fw-bold" href="./about.html">About</a>
-                </li>
-                <li class="nav-item col-4">
-                  <a class="nav-link  fw-bold" href="../services/services.html">Services</a>
-                </li>
-                <li class="nav-item col-3">
-                  <a class="nav-link  fw-bold" href="../team/team.html">Team</a>
-                </li>
-                <li class="nav-item col-4">
-                  <a class="nav-link  fw-bold" href="../contact/contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle  fw-bold " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Phones
-                  </a>
-                  <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                    <a href="../apple-phone/apple.html">Apple</a>
-                    <a href="../galaxy-phone/galaxy.html">Galaxy</a>
-                    <a href="../blackbery-phone/blackberry.html">BlackBerry</a>
-                    <a href="../google-phone/google.html">Google</a>
-                    <a href="../sony-phone/sony.html">Sony</a>
-                    <a href="../xiaomi-phone/Xiaomi.html">Xiaomi</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </header>
-    <main id="main">
-      
-      <a href="#" class="back-to-top d-flex  justify-content-center"><img src="../../images/image-home/logo2-removebg-preview.png" alt=""></a>
-      <br>
-    </main>
-    <footer class="text-center  d-flex justify-content-around" >
-      <div class="container pt-4 d-flex justify-content-around">
-          <a
-            class="btn btn-link btn-floating btn-lg text-white m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="black"
-            ><i class="bi bi-facebook"></i
-          ></a>
-              <a
-            class="btn btn-link btn-floating btn-lg text-white m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-instagram"></i
-          ></a>
-              <a
-            class="btn btn-link btn-floating btn-lg text-white m-1"
-            href="https://github.com/RanGedamo"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-github"></i
-          ></a>
-              <a
-            class="btn btn-link btn-floating btn-lg text-white m-1"
-            href="https://www.linkedin.com/in/ran-gedamo-288828236/"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="bi bi-linkedin"></i
-          ></a>
-      </div>
-    </footer>
+  <header id="header" class="pt-2">
+    <div class="container-fluid align-items-center justify-content-lg-between ">
 
-    <script src="../home/weather.js"></script>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand col-2 " href="#"><img src="../../images/image-home/logo2-removebg-preview.png"
+            width="80px"></a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <div id="weather"></div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item active col-3 ">
+              <a class="nav-link  fw-bold" href="../../index.html">Home</a>
+            </li>
+            <ul class="navbar-nav ">
+              <li class="nav-item active col-4 ">
+                <a class="nav-link  fw-bold" href="./about.html">About</a>
+              </li>
+              <li class="nav-item col-4">
+                <a class="nav-link  fw-bold" href="../services/services.html">Services</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link  fw-bold" href="../team/team.html">Team</a>
+              </li>
+              <li class="nav-item col-4">
+                <a class="nav-link  fw-bold" href="../contact/contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle  fw-bold " href="#" id="navbarDropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Phones
+                </a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                  <a href="../apple-phone/apple.html">Apple</a>
+                  <a href="../galaxy-phone/galaxy.html">Galaxy</a>
+                  <a href="../blackbery-phone/blackberry.html">BlackBerry</a>
+                  <a href="../google-phone/google.html">Google</a>
+                  <a href="../sony-phone/sony.html">Sony</a>
+                  <a href="../xiaomi-phone/Xiaomi.html">Xiaomi</a>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container mt-4 bg-black bg-opacity-25">
+
+    <div><img id="img-1" class="w-100 opacity-50 pt-2" height="300rem" src="../../images/image-about/11111111.png"
+        alt=""></div>
+    <br><br>
+    <div class="d-flex flex-wrap">
+      <p dir="rtl" class=" fw-bold text-white col-sm-12 col-md-4 d-flex flex-column  text-sm-center d-flex col-md-6 ">
+        אנחנו
+        בעמותה שלנו מאמינים שכל אדם מבוגר חייב להיות מודע מעודכן עם הטכנולוגיות
+        החדשניות היום והדבר הראשון ושאנו יכולים לעשות כדי לתרום לו ולתת לו להרגיש את הטכנולוגיה זה הדבר הבסיסי הזה שנקרא
+        פלאפון , נשמע לכם מצחיק שזה הדבר שאנחנו מציעים כי אתם יודעים שזה דבר בסיסי וכל ילד יש לו היום פלאפון והרבה אנשים
+        מחזיקים אפילו יותר מפלאפון אחד או שתיים ואפילו סתם פךאפונים שזרוקים להם בבית.<br>הרבה מבוגרים רוצים לדעת מה קורה
+        עם המשפחה שלהם והנחדים שלהם ולהיות בתקשורת עם העולם ובמיוחד בתקופה המסוכנת הזאת שהקורונה עדיין מסתובבת סביבנו
+        ומסכנת את אותם מבוגרים , יש הרבה אנשים שיתנגדו למיזם הזה אבל אנחנו תומכים בו ורצים עליו בכל הכח.<br> ורוצים
+        שתבואו
+        ותתרמו את הפלאפונים שלא בשימוש ונעשה שמח למי שאין כי הטכנויוליה רק עולה ומתקדמת ואנחנו פה כדי לשלב את כל מי
+        שנשאר
+        מאחור.<br>
+        <br>
+        </h5>
+      </p>
+      <img src="../../images/image-about/סבתא.png" width="744rem" class="opacity-75 col-sm-12 col-md-6">
+      <!-- <div class="d-flex title-1" style=" font-family: 'Mochiy Pop One', sans-serif;">MyPhone</div>
+    <div class="d-flex title-2 fw-bolder" style=" font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">גם לך מגיע אייפון</div> -->
+    </div>
+    <br><br><br>
+    <!-- <h5 class="text-white  justify-content-end " dir="rtl">כל אדם שיש לו סמארפון שלא בשימוש ומעוניין לעזור אנחנו
+      נשמח לקבל פרטים ולהעביר אותו -->
+
+
+
+    <!-- <div class="card text-center">
+      <div class="card-header text-black fw-bold fs-4 text-bg-light" style="font-family: 'Bebas Neue', cursive;">
+        My-Phone
+      </div>
+      <div class="card-body ">
+        <h5 class="card-title text-black fw-bold" dir="rtl">גם למבוגרים מגיע להתעדכן!</h5>
+        <p class="card-text">
+        <h5 class="text-center text-black fw-bold" dir="rtl">כל אדם שיש לו סמארפון שלא בשימוש ומעוניין לעזור אנחנו
+          </p>
+          <br>
+          <a href="../contact/contact.html" class="btn btn-group bg-danger fw-bold">להשארת פרטים</a>
+      </div>
+    </div> -->
+    <div class="d-flex justify-content-center ">
+      <div class="card d-flex justify-content-center bg-dark bg-opacity-75" style="width: 35rem;">
+        <div class="card-body">
+          <h5 class="card-title fw-bold fs-4 title-card text-center text-white">MyPhone</h5>
+
+          <p class="card-text text-center fw-bold text-white" dir="rtl">גם למבוגרים מגיע להתעדכן!<br><br>כל אדם שיש לו סמארפון שלא
+            בשימוש ומעוניין לעזור אנחנו</p>
+          <br>
+          <a href="../contact/contact.html" class="btn btn-primary d-flex justify-content-center">להשארת פרטים</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <a href="#" class="back-to-top d-flex  justify-content-center"><img
+        src="../../images/image-home/logo2-removebg-preview.png" alt=""></a>
+
+  </div>
+
+  <br>
+  <footer class="text-center  d-flex justify-content-around">
+    <div class="container pt-4 d-flex justify-content-around">
+      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
+        data-mdb-ripple-color="black"><i class="bi bi-facebook"></i></a>
+      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i
+          class="bi bi-instagram"></i></a>
+      <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://github.com/RanGedamo" role="button"
+        data-mdb-ripple-color="dark"><i class="bi bi-github"></i></a>
+      <a class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="https://www.linkedin.com/in/ran-gedamo-288828236/" role="button" data-mdb-ripple-color="dark"><i
+          class="bi bi-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="../home/weather.js"></script>
 
 </body>
 
