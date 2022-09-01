@@ -21,6 +21,10 @@ body {
   
 
 }
+/* .img-1{
+  flex-wrap: wrap;
+  display: flex;
+} */
 #weather2{
   font-family: 'Mochiy Pop One', sans-serif;
 }
